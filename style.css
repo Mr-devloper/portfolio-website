@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Poppins&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.sidebar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 12vw ;
+    height: 100vh;
+    font-family: 'Fira Sans', sans-serif;
+
+    /* font-family: 'Poppins', sans-serif; */
+}
+.sidebar > nav{
+    padding: 2vw;
+
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 25px;
+    padding: 33px 0px;
+
+}
+.main{
+    width: 90vw ;
+
+}
+.container{
+    display: flex;
+
+}
+.infocontainer{
+    width: 80vw;
+    height: 78vh;
+    margin: 144px auto;
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+
+}
+.devPic > img{
+    width: 46.2vh;
+}
